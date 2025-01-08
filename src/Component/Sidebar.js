@@ -5,11 +5,10 @@ const Sidebar = () => {
     <div
       style={{
         backgroundColor: "pink",
-        padding: "40px",
+        padding: "35px",
         width: "20%",
+        textAlign: "center",
         alignContent:"center"
-        
-        
       }}
     >
       ASIDE

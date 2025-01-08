@@ -2,6 +2,7 @@ import "./App.css";
 import CardItem from "./CardItem";
 import BodyContent from "./Component/BodyContent";
 import Box from "./Component/Box";
+import Footer from "./Component/Footer";
 import Header from "./Component/Header";
 import Sidebar from "./Component/Sidebar";
 import DemoChildren from "./DemoChildren";
@@ -81,7 +82,7 @@ function App() {
       >
         <Header title={"HEADER"} />
         <div style={{ display: "flex", gap: "10px" }}>
-          <div style={{ width: "90%", height: "50%" }}>
+          <div style={{ width: "80%", height: "50%" }}>
             <h1 style={{ backgroundColor: "gray" }}>Big Title</h1>
             {renderBodyItem()}
           </div>
@@ -90,10 +91,15 @@ function App() {
         <div style={{ display: "flex", gap: "10px", marginTop:"10px" }}>
           {renderBox()}
         </div>
-        <div>FOOTER</div>
+        <Footer title={"FOOTER"}/>
       </div>
     </>
   );
 }
 
 export default App;
+
+// ========NVM=========
+// nvm ls : hiển thị các version đã có trong máy
+// nvm i <version có trong máy> : nvm i 22
+// nvm use <version có trong máy>: nvm use 18 -> chuyển sang version 18

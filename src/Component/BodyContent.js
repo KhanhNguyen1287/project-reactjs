@@ -1,8 +1,7 @@
 import React from "react";
 
-
 const BodyContent = (props) => {
-    const {title,content} = props;
+  const { title, content } = props;
   return (
     <div>
       <h2>{title}</h2>
